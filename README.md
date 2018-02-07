@@ -12,13 +12,13 @@ be the case.
 ## Model description
 
 A description of the statistical model, including likelihood specification, priors, and
-conditional posteriors (via a Gibbs MCMC sampler) can be found in the [https://github.com/jmarshallnz/lcar/blob/master/lcar.Rmd](`lcar.Rmd`) vignette.
+conditional posteriors (via a Gibbs MCMC sampler) can be found in the [`lcar.Rmd`(https://github.com/jmarshallnz/lcar/blob/master/lcar.Rmd) vignette.
 
-A pre-built version of this is available in [https://github.com/jmarshallnz/lcar/blob/master/lcar.pdf](`mlcar.pdf`).
+A pre-built version of this is available in [`mlcar.pdf`](https://github.com/jmarshallnz/lcar/blob/master/lcar.pdf).
 
 ## Running
 
-The [https://github.com/jmarshallnz/lcar/blob/master/lcar.R](`lca.R`) script contains all needed R code. Data are specified at the top of the file,
+The [`lca.R`](https://github.com/jmarshallnz/lcar/blob/master/lcar.R) script contains all needed R code. Data are specified at the top of the file,
 as are priors on parameters, which are particularly important when the model is non-identifiable.
 
 Then the number of iterations from the MCMC Gibbs sampler are specified, and the MCMC chain is
